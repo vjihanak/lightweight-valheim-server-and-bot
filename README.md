@@ -12,8 +12,8 @@ Current information sent includes:
 
 ### Prerequisities:
 - [Docker](https://docs.docker.com/engine/install/ubuntu/)
-- [Telegram bot token](https://www.geeksforgeeks.org/create-a-telegram-bot-using-python/)
-- [Telegram chat id](https://medium.com/@2mau/how-to-get-a-chat-id-in-telegram-1861a33ca1de)
+- [Telegram bot API token](https://ihanakangas.fi/2024/05/30/creating-a-telegram-bot/)
+- [Telegram chat id](https://ihanakangas.fi/2024/05/30/creating-a-telegram-bot/)
 
 A simple shell script is provided in this repository that should enable an easy start of the server. Prerequisities mentioned above need to be installed and acquired before trying to start the server. To start the server, copy the shell script (or the contents below) to a place of your choosing, modify the contents as needed and run the script. The script should then download the image from dockerhub and start the needed processes. Explanation of contents can be found below. Port forwarding should not be needed as the image utilizes the -crossplay option, but enabling port forwarding for the selected port does not hurt the process. On the first start, it takes several minutes for the server to start. Once the container log says `"Starting to read log..."` the server should be up and running. See more information about joining in the "How to join"-section
 
